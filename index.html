@@ -1,0 +1,520 @@
+<HTML>
+<HEAD>
+
+  <META charset="UTF-8">
+
+  <META NAME="Description" CONTENT="">
+
+  <META NAME="Keywords" CONTENT="">
+
+  <META NAME="Author" CONTENT="">
+
+  <link rel="stylesheet" href="css/style.css"/>
+
+  <script src="https://use.fontawesome.com/b2b4a28c41.js"></script>
+
+  <script>
+
+   function stickyMenu(){
+   	var sticky=document.getElementById('sticky');
+   	if(window.pageYOffset > 220)
+   	{
+   		sticky.classList.add('sticky');
+   	}
+   	else{
+   		sticky.classList.remove('sticky');
+   	}
+
+   }
+   window.onscroll=function(){
+   	stickyMenu();
+   }
+
+
+  </script>
+
+
+</HEAD>
+
+<BODY>
+	<div class="parallax">
+		<div class="page-title">Eat Fresh </div>
+	</div>
+	<div class="menu" id="sticky">
+		<ul class="menu-ul">
+			<a href="Home" class="a-menu"><li>Home</li></a>
+			<a href="Deals" class="a-menu"><li>Deals</li></a>
+			<a href="Vegatables" class="a-menu"><li>Vegatables</li></a>
+			<a href="Fruits" class="a-menu"><li>Fruits</li></a>
+			<a href="Mmeat" class="a-menu"><li>Meat</li></a>
+			<a href="Cart" class="a-menu"><li>Cart</li></a>
+		</ul>
+		<div class="search box">
+			<form>
+				<input type="text" placeholder="Search..." name="search" classs="search-input"/>
+				<button type="submit"><i class="fa fa-search"></i></button>
+
+
+			</form>
+		</div>
+	</div>
+    
+    <!--Home Page Begins-->
+    <div class="conteiner">
+        <a href="#vegatables">
+             <div class="categories">
+                 <img src="resim/veg/havuç.png" class="item-image"/>
+                 <div class="image-title">Vegatables</div>
+             </div>
+        </a>
+        <a href="#Fruits">
+             <div class="categories">
+                 <img src="resim/fruits/portakal.png" class="item-image"/>
+                 <div class="image-title">Fruits</div>
+             </div>
+        </a>
+        <a href="Meat">
+             <div class="categories">
+                 <img src="resim/Meat/tavuk.png" class="item-image"/>
+                 <div class="image-title">Meat</div>
+             </div>
+        </a>
+        <a href="Deals">
+             <div class="categories">
+                 <img src="resim/deal.png" class="item-image"/>
+                 <div class="image-title">Deals</div>
+             </div>
+        </a>   
+
+    </div>  
+         <!--Deals Page Begins-->
+             <div class="deals-conteiner" id="deals">
+                 <div class="parallax">
+                 	 <div class="title">DEALS</div>
+                 </div>
+                 <div class="deal">
+                 	Save 20% on min-purchase of $149 on vegatables<br/>
+                 	<button class="coupon-btn">Add Coupon</button>
+                 </div>
+                 <div class="deal">
+                 	Save 10% on min-purchase of $179 on fruits<br/>
+                 	<button class="coupon-btn">Add Coupon</button>
+                 </div>
+                 <div class="deal">
+                 	Save 15% on min-purchase of $199 on meat<br/>
+                 	<button class="coupon-btn">Add Coupon</button>
+                 </div>
+
+             </div>
+ 
+         <!--Deals End Here-->
+
+         <!--Veg Page Here-->
+         <div class="deals-conteiner" id="vegetables">
+              <div class="parallax">
+                 <div class="title">VEGETABLES</div>
+              </div>
+              <div class="items">
+              	 <div class="images">
+              	 	<img src="resim/veg/salatalık.png" class="item-image-size"/>
+
+              	 </div>
+              	   <div class="description">
+              	   	 <b>organik salatalık</b></br>
+              	   	 <div class="item-select">
+                          Price:$ 2.99/250 grams
+              	   	 </div>
+              	   	 <label>Qty:</label>
+              	   	 <select class="item-select">
+              	   	 	<option>250 grams</option>
+              	   	 	<option>500 grams</option>
+              	   	 	<option>750 grams</option>
+              	   	 	<option>1000 grams</option>
+
+              	   	 </select><br/>
+              	   	 <button class="buynow-btn">Buy Now</button>
+
+              	   </div>
+
+             </div>
+              <div class="items">
+              	 <div class="images">
+              	 	<img src="resim/veg/havuç.png" class="item-image-size"/>
+
+              	 </div>
+              	   <div class="description">
+              	   	 <b>organik havuç</b></br>
+              	   	 <div class="item-select">
+                          Price:$ 3.99/250 grams
+              	   	 </div>
+              	   	 <label>Qty:</label>
+              	   	 <select class="item-select">
+              	   	 	<option>250 grams</option>
+              	   	 	<option>500 grams</option>
+              	   	 	<option>750 grams</option>
+              	   	 	<option>1000 grams</option>
+
+              	   	 </select><br/>
+              	   	 <button class="buynow-btn">Buy Now</button>
+
+              	   </div>
+
+             </div>
+              <div class="items">
+              	 <div class="images">
+              	 	<img src="resim/veg/domates.png" class="item-image-size"/>
+
+              	 </div>
+              	   <div class="description">
+              	   	 <b>organik domates</b></br>
+              	   	 <div class="item-select">
+                          Price:$ 1.99/250 grams
+              	   	 </div>
+              	   	 <label>Qty:</label>
+              	   	 <select class="item-select">
+              	   	 	<option>250 grams</option>
+              	   	 	<option>500 grams</option>
+              	   	 	<option>750 grams</option>
+              	   	 	<option>1000 grams</option>
+
+              	   	 </select><br/>
+              	   	 <button class="buynow-btn">Buy Now</button>
+
+              	   </div>
+
+             </div>
+              <div class="items">
+              	 <div class="images">
+              	 	<img src="resim/veg/biber.png" class="item-image-size"/>
+
+              	 </div>
+              	   <div class="description">
+              	   	 <b>organik biber</br>
+              	   	 <div class="item-select">
+                          Price:$ 4.99/250 grams
+              	   	 </div>
+              	   	 <label>Qty:</label>
+              	   	 <select class="item-select">
+              	   	 	<option>250 grams</option>
+              	   	 	<option>500 grams</option>
+              	   	 	<option>750 grams</option>
+              	   	 	<option>1000 grams</option>
+
+              	   	 </select><br/>
+              	   	 <button class="buynow-btn">Buy Now</button>
+
+              	   </div>
+
+             </div>
+              <div class="items">
+              	 <div class="images">
+              	 	<img src="resim/veg/brokoli.png" class="item-image-size"/>
+
+              	 </div>
+              	   <div class="description">
+              	   	 <b>organik brokoli</b></br>
+              	   	 <div class="item-select">
+                          Price:$ 5.99/250 grams
+              	   	 </div>
+              	   	 <label>Qty:</label>
+              	   	 <select class="item-select">
+              	   	 	<option>250 grams</option>
+              	   	 	<option>500 grams</option>
+              	   	 	<option>750 grams</option>
+              	   	 	<option>1000 grams</option>
+
+              	   	 </select><br/>
+              	   	 <button class="buynow-btn">Buy Now</button>
+
+              	   </div>
+
+             
+         </div>
+
+
+
+
+         <!--Veg End Here-->
+         <!--Fruits Page Here-->
+         <div class="deals-conteiner" id="fruits">
+              <div class="parallax">
+                 <div class="title">fruits</div>
+              </div>
+              <div class="items">
+              	 <div class="images">
+              	 	<img src="resim/fruits/elma.png" class="item-image-size"/>
+
+              	 </div>
+              	   <div class="description">
+              	   	 <b>organik elma</b></br>
+              	   	 <div class="item-select">
+                          Price:$ 2.99/250 grams
+              	   	 </div>
+              	   	 <label>Qty:</label>
+              	   	 <select class="item-select">
+              	   	 	<option>250 grams</option>
+              	   	 	<option>500 grams</option>
+              	   	 	<option>750 grams</option>
+              	   	 	<option>1000 grams</option>
+
+              	   	 </select><br/>
+              	   	 <button class="buynow-btn">Buy Now</button>
+
+              	   </div>
+
+             </div>
+              <div class="items">
+              	 <div class="images">
+              	 	<img src="resim/fruits/portakal.png" class="item-image-size"/>
+
+              	 </div>
+              	   <div class="description">
+              	   	 <b>organik portakal</b></br>
+              	   	 <div class="item-select">
+                          Price:$ 4.99/250 grams
+              	   	 </div>
+              	   	 <label>Qty:</label>
+              	   	 <select class="item-select">
+              	   	 	<option>250 grams</option>
+              	   	 	<option>500 grams</option>
+              	   	 	<option>750 grams</option>
+              	   	 	<option>1000 grams</option>
+
+              	   	 </select><br/>
+              	   	 <button class="buynow-btn">Buy Now</button>
+
+              	   </div>
+
+             </div>
+              <div class="items">
+              	 <div class="images">
+              	 	<img src="resim/fruits/muz.png" class="item-image-size"/>
+
+              	 </div>
+              	   <div class="description">
+              	   	 <b>organik muz</b></br>
+              	   	 <div class="item-select">
+                          Price:$ 7.99/250 grams
+              	   	 </div>
+              	   	 <label>Qty:</label>
+              	   	 <select class="item-select">
+              	   	 	<option>250 grams</option>
+              	   	 	<option>500 grams</option>
+              	   	 	<option>750 grams</option>
+              	   	 	<option>1000 grams</option>
+
+              	   	 </select><br/>
+              	   	 <button class="buynow-btn">Buy Now</button>
+
+              	   </div>
+
+             </div>
+              <div class="items">
+              	 <div class="images">
+              	 	<img src="resim/fruits/kivi.png" class="item-image-size"/>
+
+              	 </div>
+              	   <div class="description">
+              	   	 <b>organik kivi</br>
+              	   	 <div class="item-select">
+                          Price:$ 6.99/250 grams
+              	   	 </div>
+              	   	 <label>Qty:</label>
+              	   	 <select class="item-select">
+              	   	 	<option>250 grams</option>
+              	   	 	<option>500 grams</option>
+              	   	 	<option>750 grams</option>
+              	   	 	<option>1000 grams</option>
+
+              	   	 </select><br/>
+              	   	 <button class="buynow-btn">Buy Now</button>
+
+              	   </div>
+
+             </div>
+              <div class="items">
+              	 <div class="images">
+              	 	<img src="resim/fruits/çilek.png" class="item-image-size"/>
+
+              	 </div>
+              	   <div class="description">
+              	   	 <b>organik çilek</b></br>
+              	   	 <div class="item-select">
+                          Price:$ 8.99/250 grams
+              	   	 </div>
+              	   	 <label>Qty:</label>
+              	   	 <select class="item-select">
+              	   	 	<option>250 grams</option>
+              	   	 	<option>500 grams</option>
+              	   	 	<option>750 grams</option>
+              	   	 	<option>1000 grams</option>
+
+              	   	 </select><br/>
+              	   	 <button class="buynow-btn">Buy Now</button>
+
+              	   </div>
+
+             
+         </div>
+
+         <!--Fruits End Here-->
+          <!--Meat Page Here-->
+         <div class="deals-conteiner" id="meat">
+              <div class="parallax">
+                 <div class="title">meat</div>
+              </div>
+              <div class="items">
+              	 <div class="images">
+              	 	<img src="resim/meat/tavuk.png" class="item-image-size"/>
+
+              	 </div>
+              	   <div class="description">
+              	   	 <b>Beyaz tavuk</b></br>
+              	   	 <div class="item-select">
+                          Price:$ 9.99/250 grams
+              	   	 </div>
+              	   	 <label>Qty:</label>
+              	   	 <select class="item-select">
+              	   	 	<option>250 grams</option>
+              	   	 	<option>500 grams</option>
+              	   	 	<option>750 grams</option>
+              	   	 	<option>1000 grams</option>
+
+              	   	 </select><br/>
+              	   	 <button class="buynow-btn">Buy Now</button>
+
+              	   </div>
+
+             </div>
+              <div class="items">
+              	 <div class="images">
+              	 	<img src="resim/meat/balık.png" class="item-image-size"/>
+
+              	 </div>
+              	   <div class="description">
+              	   	 <b>Taze balık</b></br>
+              	   	 <div class="item-select">
+                          Price:$ 10.99/250 grams
+              	   	 </div>
+              	   	 <label>Qty:</label>
+              	   	 <select class="item-select">
+              	   	 	<option>250 grams</option>
+              	   	 	<option>500 grams</option>
+              	   	 	<option>750 grams</option>
+              	   	 	<option>1000 grams</option>
+
+              	   	 </select><br/>
+              	   	 <button class="buynow-btn">Buy Now</button>
+
+              	   </div>
+
+             </div>
+              <div class="items">
+              	 <div class="images">
+              	 	<img src="resim/meat/et.png" class="item-image-size"/>
+
+              	 </div>
+              	   <div class="description">
+              	   	 <b>Kuzu eti</b></br>
+              	   	 <div class="item-select">
+                          Price:$ 15.99/250 grams
+              	   	 </div>
+              	   	 <label>Qty:</label>
+              	   	 <select class="item-select">
+              	   	 	<option>250 grams</option>
+              	   	 	<option>500 grams</option>
+              	   	 	<option>750 grams</option>
+              	   	 	<option>1000 grams</option>
+
+              	   	 </select><br/>
+              	   	 <button class="buynow-btn">Buy Now</button>
+
+              	   </div>
+
+             </div>
+             <div class="items">
+              	 <div class="images">
+              	 	<img src="resim/meat/biftek.png" class="item-image-size"/>
+
+              	 </div>
+              	   <div class="description">
+              	   	 <b>Taze biftek</br>
+              	   	 <div class="item-select">
+                          Price:$ 20.99/250 grams
+              	   	 </div>
+              	   	 <label>Qty:</label>
+              	   	 <select class="item-select">
+              	   	 	<option>250 grams</option>
+              	   	 	<option>500 grams</option>
+              	   	 	<option>750 grams</option>
+              	   	 	<option>1000 grams</option>
+
+              	   	 </select><br/>
+              	   	 <button class="buynow-btn">Buy Now</button>
+
+              	   </div>
+
+             </div>
+              
+
+             
+         </div>
+
+         <!--Meat End Here-->
+
+
+
+    <!--Home page ends-->
+    <!--Foooter starts here-->
+    <div class="paralllax1">
+         <div class="footer">
+         	<div class="quick-links">
+         		<div>Locations</div>
+         		<ul>
+         			<li><a href="" class="a-links">Address 1</a></li>
+         			<li><a href="" class="a-links">Address 2</a></li>
+         			<li><a href="" class="a-links">Address 3</a></li>
+         		</ul>
+                   
+         	</div>
+         	<div class="quick-links">
+         		<div>Careers</div>
+         		<ul>
+         			<li><a href="" class="a-links">Packing Staff</a></li>
+         			<li><a href="" class="a-links">Delivery Agents</a></li>
+         			<li><a href="" class="a-links">Shelf Fillers</a></li>
+         		</ul>
+                   
+         	</div>
+         	<div class="quick-links">
+         		<div>Quick Links</div>
+         		<ul>
+         			<li><a href="" class="a-links">Contact Us</a></li>
+         			<li><a href="" class="a-links">FAQ</a></li>
+         			<li><a href="" class="a-links">Help</a></li>
+         		</ul>
+                   
+         	</div>
+         	<div class="copyrights">
+         		<i class="far fa copyright fa-ix"></i>2020 By Programers Web Drive
+         	</div>
+         </div>
+
+    </div>
+
+    <!--Foooter ends here-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+</BODY>
+</HTML>
